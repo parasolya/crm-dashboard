@@ -1,0 +1,20 @@
+@import "../../styles/common/vars";
+
+.asideWrapper {
+  padding: 36px 28px 76px;
+  // background-color: $color-white;
+  background-color: gray;
+}
+
+.logoWrapper {
+  display: flex;
+  gap: 4px;
+}
+
+.logoText {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+
+  padding-top: 18px;
+}

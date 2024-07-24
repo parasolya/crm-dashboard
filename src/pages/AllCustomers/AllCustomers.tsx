@@ -1,5 +1,7 @@
 import React from "react";
 import { Title } from "../../components/ui/Title/Title";
+import CustomersTable from '../../components/CustomersTable/CustomersTable';
+
 import Button from "../../components/ui/Button/Button";
 import { ReactComponent as ArrowRightIcon } from '../../../public/chevron-right.svg';
 
@@ -8,8 +10,8 @@ const CustomersRow = () => {
     <div>
       <div>
       <Title title="All Customers" />
-      
-      <Button
+      <CustomersTable />
+      {/* <Button
         variant="secondary"
         type="button"
         iconPosition="before"
@@ -17,10 +19,10 @@ const CustomersRow = () => {
     
       >
       Active Members
-      </Button>
+      </Button> */}
 
       </div>
-      <Button
+      {/* <Button
         variant="main"
         type="button"
         iconPosition="before"
@@ -28,7 +30,7 @@ const CustomersRow = () => {
         icon={<ArrowRightIcon width={24} height={24} className="h-6 w-6" />}
       >
         Search
-      </Button>
+      </Button> */}
       </div>
   );
 };

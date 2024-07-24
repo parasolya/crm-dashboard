@@ -6,11 +6,23 @@
 
 
 .App {
+  box-sizing: border-box;
+
   text-align: center;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.14px;
+}
+
+.wrapperApp {
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-bg-lightBlue;
+}
+
+.wrapperPage {
+  width: 100%;
 }
 
 
