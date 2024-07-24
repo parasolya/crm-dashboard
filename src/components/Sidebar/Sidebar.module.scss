@@ -3,12 +3,13 @@
 .asideWrapper {
   padding: 36px 28px 76px;
   // background-color: $color-white;
-  background-color: gray;
+  background-color: rgb(226, 222, 222);
 }
 
 .logoWrapper {
   display: flex;
   gap: 4px;
+  margin-bottom: 51px;
 }
 
 .logoText {
@@ -17,4 +18,55 @@
   letter-spacing: -0.1px;
 
   padding-top: 18px;
+}
+
+.sidebarList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebarItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 8px;
+  padding: 11px 11px 8px 11px;
+
+  background-color: inherit;
+
+  color: $color-text-secondary;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebarItem:hover,
+.sidebarItem.active {
+  background-color: $color-accent;
+  color: $color-white !important;
+}
+
+.sidebarItemBox {
+  display: flex;
+  gap: 14px;
+}
+
+.sidebarIcon {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.sidebarIcon:hover,
+.sidebarIcon:active {
+  color: $color-white !important;
+}
+
+.sidebarImg {
+  filter: grayscale(0%) sepia(0%) hue-rotate(0deg) brightness(100%) invert(0%);
+  transition: filter 0.3s ease;
+}
+
+.sidebarItem:hover .sidebarImg,
+.sidebarItem.active .sidebarImg {
+  filter: grayscale(100%) sepia(100%) hue-rotate(0deg) brightness(0%) invert(100%);
 }

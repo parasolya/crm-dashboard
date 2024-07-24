@@ -1,32 +1,38 @@
 [
   {
     "id": 1,
-    "icon": "",
-    "namePage": ""
+    "icon": "/sidebar/key-square.svg",
+    "namePage": "Dashboard",
+    "pathname": "/dashboard"
   },
   {
     "id": 2,
-    "icon": "",
-    "namePage": ""
+    "icon": "/sidebar/3d-square.svg",
+    "namePage": "Product",
+    "pathname": "/product"
   },
   {
     "id": 3,
-    "icon": "",
-    "namePage": ""
+    "icon": "/sidebar/user-square.svg",
+    "namePage": "Customers",
+    "pathname": "/customers"
   },
   {
     "id": 4,
-    "icon": "",
-    "namePage": ""
+    "icon": "/sidebar/wallet-money.svg",
+    "namePage": "Income",
+    "pathname": "/income"
   },
   {
     "id": 5,
-    "icon": "",
-    "namePage": ""
+    "icon": "/sidebar/discount-shape.svg",
+    "namePage": "Promote",
+    "pathname": "/promote"
   },
   {
     "id": 6,
-    "icon": "",
-    "namePage": ""
+    "icon": "/sidebar/message-question.svg",
+    "namePage": "Help",
+    "pathname": "/help"
   }
 ]
