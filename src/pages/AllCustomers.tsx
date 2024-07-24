@@ -1,17 +1,18 @@
 import React from "react";
 import { Title } from "../components/ui/Title/Title";
-import CustomersTable from '../components/CustomersTable/CustomersTable';
+import CustomersTable from "../components/CustomersTable/CustomersTable";
 
 import Button from "../components/ui/Button/Button";
-import { ReactComponent as ArrowRightIcon } from '../../../public/chevron-right.svg';
+import { ReactComponent as ArrowRightIcon } from "../../../public/chevron-right.svg";
 
-const CustomersRow = () => {
+const AllCustomers = () => {
   return (
-    <div>
-      <div>
-      <Title title="All Customers" />
-      <CustomersTable />
-      {/* <Button
+    <div className="container">
+      <div className="pageWrapper ">
+      <div className="customersWrapper">
+        <Title title="All Customers" />
+        
+        {/* <Button
         variant="secondary"
         type="button"
         iconPosition="before"
@@ -20,7 +21,6 @@ const CustomersRow = () => {
       >
       Active Members
       </Button> */}
-
       </div>
       {/* <Button
         variant="main"
@@ -32,7 +32,9 @@ const CustomersRow = () => {
         Search
       </Button> */}
       </div>
+      <CustomersTable />
+    </div>
   );
 };
 
-export default CustomersRow;
+export default AllCustomers;

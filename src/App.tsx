@@ -8,6 +8,7 @@ import Help from "./pages/Help";
 import Income from "./pages/Income";
 import Product from "./pages/Product";
 import Promote from "./pages/Promote";
+import Header from "./pages/Header";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <div className="wrapperApp">
         <Sidebar />
         <div className="wrapperPage">
-          <header className="">Header</header>
+          <Header />
           <main className="">
             <Routes>
               <Route path="/dashboard" element={<Dashboard />} />
