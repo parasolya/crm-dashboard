@@ -1,0 +1,35 @@
+@import "../../styles/common/vars";
+
+.tableContainer {
+  margin: 40px;
+
+  background-color: #fff;
+}
+
+table {
+  width: 100%;
+  padding: 0px 44px 0 38px;
+  border: 1px solid aqua;
+
+  thead {
+    th {
+      font-weight: 500;
+      color: $color-text-secondary;
+      padding-bottom: 14px;
+      text-align: left;
+
+      &:last-child {
+        text-align: center;
+      }
+    }
+  }
+}
+.tableContainer::before {
+  content: "";
+  display: block;
+  width: 100%; // Ширина таблиці з додатковим відступом зліва
+  height: 1px; // Висота бордеру
+  background-color: $color-line;
+  position: relative;
+  top: 41px;
+}

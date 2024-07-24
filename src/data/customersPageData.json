@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "header": "Customer Name"
+  },
+  {
+    "id": 2,
+    "header": "Company"
+  },
+  {
+    "id": 3,
+    "header": "Phone Number"
+  },
+  {
+    "id": 4,
+    "header": "Email"
+  },
+  {
+    "id": 5,
+    "header": "Country"
+  },
+  {
+    "id": 6,
+    "header": "Status"
+  }
+]

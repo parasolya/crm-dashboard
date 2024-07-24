@@ -1,0 +1,17 @@
+@import "../../styles/common/vars";
+
+tr {
+  td {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    text-align: left;
+    border-bottom: 1px solid $color-line;
+
+    &:last-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+ 
+}
