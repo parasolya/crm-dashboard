@@ -1,8 +1,8 @@
 import React from "react";
-import { Title } from "../../components/ui/Title/Title";
-import CustomersTable from '../../components/CustomersTable/CustomersTable';
+import { Title } from "../components/ui/Title/Title";
+import CustomersTable from '../components/CustomersTable/CustomersTable';
 
-import Button from "../../components/ui/Button/Button";
+import Button from "../components/ui/Button/Button";
 import { ReactComponent as ArrowRightIcon } from '../../../public/chevron-right.svg';
 
 const CustomersRow = () => {

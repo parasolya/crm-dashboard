@@ -1,9 +1,11 @@
 import React from 'react'
+import { Title } from '../components/ui/Title/Title'
 
 const Dashboard = () => {
   return (
     <div className='{styles.page}'>
-      Dashboard
+      <Title title="Dashboard" />
+      
     </div>
   )
 }
