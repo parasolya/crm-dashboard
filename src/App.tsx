@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 import Dashboard from "./pages/Dashboard";
-import AllCustomers from "./pages/AllCustomers";
+import AllCustomers from "./pages/AllCustomers/AllCustomers";
 
 import "./App.scss";
 import Help from "./pages/Help";
@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <div className="wrapperApp">
         <Sidebar />
-        <div className="wrapperPage">
+        <div className="">
           <Header />
           <main className="">
             <Routes>

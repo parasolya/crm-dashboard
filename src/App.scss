@@ -4,7 +4,8 @@
 @import "./styles/common/vars";
 
 .App {
- 
+  margin: 0 auto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -15,8 +16,9 @@
 .wrapperApp {
   display: flex;
   justify-content: space-between;
+  min-height: 100vh;
   // background-color: $color-bg-lightBlue;
-  background-color: #a2b5c8;
+  background-color: #b8d4f3;
 }
 
 .wrapperPage {
@@ -40,11 +42,4 @@
   font-weight: 400;
   color: $color-black;
 }
-
-.customersWrapper {
-  padding: 0px 44px 0 38px;
-}
-
-
-
 

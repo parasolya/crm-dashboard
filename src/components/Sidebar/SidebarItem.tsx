@@ -1,12 +1,5 @@
 import { ReactComponent as ArrowRightIcon } from "../../assets/chevron-right.svg";
 
-import { ReactComponent as KeySquareIcon } from '../../assets/key-square.svg';
-import { ReactComponent as DSquare } from '../../assets/3d-square.svg';
-import { ReactComponent as UserSquareIcon } from '../../assets/user-square.svg';
-import { ReactComponent as WalletMoneyIcon } from '../../assets/wallet-money.svg';
-import { ReactComponent as DiscountShapeIcon } from '../../assets/discount-shape.svg';
-import { ReactComponent as MessageQuestionIcon } from '../../assets/message-question.svg';
-
 import styles from "./Sidebar.module.scss";
 import { useLocation } from "react-router-dom";
 
@@ -28,12 +21,13 @@ const SidebarItem = ({
 
   const location = useLocation();
   const isActive = location.pathname === pathname;
+  const isDefaultActive = pathname === '/customers';
 
   return (
     <li>
        <a
         href={pathname}
-        className={`${styles.sidebarItem} ${isActive ? styles.active : ''}`}
+        className={`${styles.sidebarItem} ${isActive || isDefaultActive ? styles.active : ''}`}
       >
         <div className={styles.sidebarItemBox}>
         <img

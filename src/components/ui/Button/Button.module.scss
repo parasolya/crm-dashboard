@@ -1,0 +1,15 @@
+@import "../../../styles/common/vars";
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.buttonMain {
+  font-size: 12px;
+  font-weight: 400;
+
+  color: $color-text-secondary;
+}

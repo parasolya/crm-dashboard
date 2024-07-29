@@ -1,0 +1,25 @@
+@import "../../styles/common/vars";
+
+// .customersWrapper {
+//   padding: 0px 44px 0 38px;
+// }
+
+.customersSign {
+  font-weight: 400;
+  color: $color-bg-active;
+  margin-top: 7px;
+}
+
+.customersHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 44px 0 38px;
+}
+
+.searchIcon {
+  transition: width 0.3ms ease, height 0.3ms ease;
+}
+.searchIcon:hover {
+  width: 30px;
+  height: 30px;
+}

@@ -1,9 +1,9 @@
 @import "../../styles/common/vars";
 
 .asideWrapper {
+  flex: 1;
   padding: 36px 28px 76px;
-  // background-color: $color-white;
-  background-color: rgb(226, 222, 222);
+  background-color: $color-white;
 }
 
 .logoWrapper {
